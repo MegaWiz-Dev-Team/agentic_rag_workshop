@@ -57,11 +57,11 @@
 - **วิธีส่ง:** Download .ipynb จาก Colab → Upload ใน Google Form
 - ส่งทั้งไฟล์เนื้อหา (แบบฝึกหัด) + ไฟล์การบ้าน
 
-| Day   | Google Form                                                                        |
-| ----- | ---------------------------------------------------------------------------------- |
-| Day 1 | 📤 [ส่งการบ้าน Day 1: Data Engineering](https://forms.gle/R7EXvPvUfZ286CVh8)          |
-| Day 2 | 📤 [ส่งการบ้าน Day 2: Building Agents](https://forms.gle/xTQ5eVNKa4fcQVKb8)           |
-| Day 3 | 📤 [ส่งการบ้าน Day 3: Evaluation & Optimization](https://forms.gle/yLVHh4YVVt3miogm8) |
+| Day   | 🔗 เปิดการบ้านใน Colab                                                                                                                  | 📤 ส่งการบ้าน (Google Form)                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
+| Day 1 | [day1_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb) | [ส่งการบ้าน Day 1](https://forms.gle/R7EXvPvUfZ286CVh8) |
+| Day 2 | [day2_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb) | [ส่งการบ้าน Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8) |
+| Day 3 | [day3_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb) | [ส่งการบ้าน Day 3](https://forms.gle/yLVHh4YVVt3miogm8) |
 
 - ⚠️ ส่งได้ 1 ครั้ง (แก้ไขหลังส่งได้)
 - ✅ Run "ตรวจสอบคำตอบ" ก่อนส่งทุกครั้ง!
