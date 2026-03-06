@@ -119,6 +119,7 @@ agentic_rag_workshop/
 2. อัปโหลด notebooks ขึ้น Google Colab
 3. แชร์ข้อมูลตัวอย่าง (PDF) ให้นักศึกษา (Day 1)
 4. **สร้าง Google Form** สำหรับรับส่งการบ้าน (ดู [วิธีส่งการบ้าน](#-วิธีส่งการบ้าน))
+5. 📊 **[Slide สำหรับสอน](https://docs.google.com/presentation/d/1298peeshWiNPr2JMUTdu1y2A-nuWpGo0N62i25_lvnc/edit)** — Google Slides พร้อมใช้
 
 ### สำหรับนักศึกษา
 1. **Google Account** (สำหรับ Colab)
