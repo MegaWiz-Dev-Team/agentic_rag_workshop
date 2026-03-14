@@ -12,10 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### 🐛 Fixed
 
 **Day 2: Building Agents**
-- `day2_homework.ipynb` — `chat_with_agent()` ส่ง `session_service` เป็น constructor arg ให้ `InMemoryRunner` ซึ่งไม่รองรับ → ใช้ `runner.session_service` pattern (#46)
+- `day2_homework.ipynb` — `chat_with_agent()` `session_service` constructor arg `InMemoryRunner` → `runner.session_service` pattern (#46)
 
 **Day 3: Evaluation**
-- `day3_evaluation.ipynb` — RAGAS evaluation cell มีโค้ดหายไป (embedding setup, Dataset, evaluate() call, try block) ทำให้เกิด parse error (#45)
+- `day3_evaluation.ipynb` — RAGAS evaluation cell (embedding setup, Dataset, evaluate() call, try block) parse error (#45)
 
 ---
 
@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🐛 Fixed
 
-- Heatmap ภาษาไทยแสดงเป็น □□□ — ย้าย Thai font setup (Garuda) ไปก่อน heatmap cell (#41)
+- Heatmap □□□ — Thai font setup (Garuda) heatmap cell (#41)
 
 ---
 
@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🐛 Fixed
 
-- GitHub ไม่สามารถ render `day1_data_engineering.ipynb` — `metadata.widgets` ขาด `state` key (#39)
+- GitHub render `day1_data_engineering.ipynb` — `metadata.widgets` `state` key (#39)
 
 ---
 
@@ -39,36 +39,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### 🎉 All Notebooks Error-Free on Colab
 
-Notebooks ทั้ง 3 วัน + แบบฝึกหัด ผ่านการทดสอบบน Google Colab ไม่มี error
+Notebooks 3 + Google Colab error
 
 ### 🐛 Fixed
 
 **Day 1: Data Engineering**
-- Thai font ใน matplotlib แสดงเป็น □□□ — ใช้ `fonts-thai-tlwg` + `addfont()` (#19, #23, #28)
-- Similarity matrix text ไม่ตรง — เปลี่ยนเป็น matplotlib heatmap (#30, #32)
+- Thai font matplotlib □□□ — `fonts-thai-tlwg` + `addfont()` (#19, #23, #28)
+- Similarity matrix text — matplotlib heatmap (#30, #32)
 
 **Day 2: Building Agents**
-- `InMemoryRunner` ไม่รับ `session_service` param — ใช้ `runner.session_service` (#16)
-- `resp.text.strip()` → NoneType error — เพิ่ม None check (#17)
-- `chat_with_agent` tuple unpacking ValueError — แก้ return value (#16)
-- `%%time` + `await` SyntaxError บน Colab — ลบ `%%time`
+- `InMemoryRunner` `session_service` param — `runner.session_service` (#16)
+- `resp.text.strip()` → NoneType error — None check (#17)
+- `chat_with_agent` tuple unpacking ValueError — return value (#16)
+- `%%time` + `await` SyntaxError Colab — `%%time`
 
 **Day 3: Evaluation**
-- `InMemoryRunner` + `session_service` TypeError — ใช้ `runner.session_service` (#26)
-- `resp.text.strip()` NoneType — เพิ่ม None check (#26)
+- `InMemoryRunner` + `session_service` TypeError — `runner.session_service` (#26)
+- `resp.text.strip()` NoneType — None check (#26)
 
 ### ✨ Improved
 
-- ASCII diagrams กับ Thai text → เปลี่ยนเป็น markdown table ทุก notebook (#21)
-- Pipeline diagram Day 1 + Day 2 → จัดให้ตรงและสวยงาม
-- Similarity matrix → heatmap visualization 3 ช่อง (#30)
-- เพิ่มข้อมูล KMITL ใน sample data ทุกวัน
+- ASCII diagrams Thai text → markdown table notebook (#21)
+- Pipeline diagram Day 1 + Day 2 → 
+- Similarity matrix → heatmap visualization 3 (#30)
+- KMITL sample data 
 
 ### 📝 Documentation
 
-- README: เพิ่ม Known Issues & Fixes section (#33)
-- README: อัพเดทโครงสร้างไฟล์ + Colab note
-- เพิ่ม `.agent/workflows/git-workflow.md` — บังคับ Issue → Branch → PR → Merge
+- README: Known Issues & Fixes section (#33)
+- README: + Colab note
+- `.agent/workflows/git-workflow.md` — Issue → Branch → PR → Merge
 
 ---
 
@@ -76,7 +76,7 @@ Notebooks ทั้ง 3 วัน + แบบฝึกหัด ผ่านก
 
 ### 🎉 Initial Release
 
-Workshop สอน Agentic RAG ครบ 3 วัน พร้อมระบบตรวจการบ้านอัตโนมัติ
+Workshop Agentic RAG 3 
 
 ### ✨ Added
 
@@ -86,26 +86,26 @@ Workshop สอน Agentic RAG ครบ 3 วัน พร้อมระบบ
 - `day3/day3_evaluation.ipynb` — RAGAS, LLM-as-Judge, A/B Testing, Capstone
 
 **Homework Notebooks**
-- `day1/day1_homework.ipynb` — Pipeline ครบ loop (10 คะแนน)
-- `day2/day2_homework.ipynb` — Agent + RAG Agent + Workflow (10 คะแนน)
-- `day3/day3_homework.ipynb` — RAG + Evaluation + Optimization (10 คะแนน)
+- `day1/day1_homework.ipynb` — Pipeline loop (10 )
+- `day2/day2_homework.ipynb` — Agent + RAG Agent + Workflow (10 )
+- `day3/day3_homework.ipynb` — RAG + Evaluation + Optimization (10 )
 - Anti-cheat: student-specific seeded data generation
-- Standardized student info: ชื่อ, รหัส, เบอร์โทร, LINE ID
+- Standardized student info: , , , LINE ID
 
 **Grading System**
-- `day1/day1_grading.ipynb` — AI grading ด้วย Gemini 2.5 Pro
+- `day1/day1_grading.ipynb` — AI grading Gemini 2.5 Pro
 - `day2/day2_grading.ipynb` — Duplicate check + CSV/JSON export
 - `day3/day3_grading.ipynb` — Automated scoring + download
-- `final_grading.ipynb` — 3 ด้าน (Responsibility/Determination/Technical) × 3 วัน = /90
+- `final_grading.ipynb` — 3 (Responsibility/Determination/Technical) × 3 = /90
 
 **Submission System**
-- Google Form × 3 วัน (Workshop notebook + Homework notebook upload)
+- Google Form × 3 (Workshop notebook + Homework notebook upload)
 - Google Drive folder structure
 
 **Documentation**
-- `README.md` — ภาพรวม, โครงสร้าง, วิธีสอน, เกณฑ์คะแนน, Tech Stack
+- `README.md` — , , , , Tech Stack
 - `LICENSE` — CC BY-NC-SA 4.0 (TH + EN)
-- `slides_outline.md` — Slide outline 50 slides พร้อม Colab + Form links
+- `slides_outline.md` — Slide outline 50 slides Colab + Form links
 
 ### 🐛 Fixed
 - numpy binary incompatibility on Colab (#1, #2)

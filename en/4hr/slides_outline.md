@@ -12,17 +12,17 @@
 
 ### Slide 0-2 — 3-Day Roadmap
 - **Day 1: 📊 Data Engineering Pipeline**
-  - Prepare data: Deduplicate → Chunk → Embed → VectorDB → Search
-  - Tech: Qdrant, multilingual-e5-large, BM25, PyThaiNLP
-  - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)
+ - Prepare data: Deduplicate → Chunk → Embed → VectorDB → Search
+ - Tech: Qdrant, multilingual-e5-large, BM25, PyThaiNLP
+ - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_data_engineering.ipynb)
 - **Day 2: 🤖 Building Agents**
-  - Build an AI Agent: Agent + Tools → RAG Agent → Multi-Agent
-  - Tech: Google ADK, Gemini API, Session Memory
-  - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)
+ - Build an AI Agent: Agent + Tools → RAG Agent → Multi-Agent
+ - Tech: Google ADK, Gemini API, Session Memory
+ - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_building_agents.ipynb)
 - **Day 3: 📏 Evaluation & Optimization**
-  - Measure and improve: RAGAS, LLM-as-Judge, A/B Testing, Capstone
-  - Tech: RAGAS Framework, Prompt Engineering
-  - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)
+ - Measure and improve: RAGAS, LLM-as-Judge, A/B Testing, Capstone
+ - Tech: RAGAS Framework, Prompt Engineering
+ - 🔗 [Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_evaluation.ipynb)
 
 ### Slide 0-3 — Grading Rubric
 - **3 categories × 3 days = 90 points**
@@ -31,12 +31,12 @@
 - 💻 **Technical (10/Day)** — code runs, results are correct, no copying
 - Table:
 
-  | Category         | Day 1 | Day 2 | Day 3 | Total |
-  | ---------------- | :---: | :---: | :---: | :---: |
-  | 🤝 Responsibility |  /10  |  /10  |  /10  |  /30  |
-  | 💪 Determination  |  /10  |  /10  |  /10  |  /30  |
-  | 💻 Technical      |  /10  |  /10  |  /10  |  /30  |
-  | **Total**        | **/30** | **/30** | **/30** | **/90** |
+ | Category | Day 1 | Day 2 | Day 3 | Total |
+ | ---------------- | :---: | :---: | :---: | :---: |
+ | 🤝 Responsibility | /10 | /10 | /10 | /30 |
+ | 💪 Determination | /10 | /10 | /10 | /30 |
+ | 💻 Technical | /10 | /10 | /10 | /30 |
+ | **Total** | **/30** | **/30** | **/30** | **/90** |
 
 ### Slide 0-4 — Tools Used
 - **Google Colab** — write code in the cloud (no local install required)
@@ -44,8 +44,8 @@
 - **Google ADK** — build AI Agents
 - **Qdrant** — Vector Database
 - What you need:
-  - Google Account
-  - Gemini API Key (free) → store in Colab Secrets
+ - Google Account
+ - Gemini API Key (free) → store in Colab Secrets
 
 ### Slide 0-5 — Ground Rules
 - 🔗 Notebooks are shared via link (open in Colab directly)
@@ -58,11 +58,11 @@
 - **Submit by:** Download .ipynb from Colab → Upload to Google Form
 - Submit both the exercise notebook and the homework notebook
 
-| Day   | 🔗 Homework (Colab)                                                                                                                  | 📤 Submission (Google Form)                              |
+| Day | 🔗 Homework (Colab) | 📤 Submission (Google Form) |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
-| Day 1 | [day1_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb) | [Submit Day 1](https://forms.gle/R7EXvPvUfZ286CVh8)    |
-| Day 2 | [day2_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb) | [Submit Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8)    |
-| Day 3 | [day3_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb) | [Submit Day 3](https://forms.gle/yLVHh4YVVt3miogm8)    |
+| Day 1 | [day1_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb) | [Submit Day 1](https://forms.gle/R7EXvPvUfZ286CVh8) |
+| Day 2 | [day2_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day2/day2_homework.ipynb) | [Submit Day 2](https://forms.gle/xTQ5eVNKa4fcQVKb8) |
+| Day 3 | [day3_homework.ipynb](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day3/day3_homework.ipynb) | [Submit Day 3](https://forms.gle/yLVHh4YVVt3miogm8) |
 
 - ⚠️ One submission per day (edits allowed after submission)
 - ✅ Run "Check Answers" before submitting every time!
@@ -77,9 +77,9 @@
 
 ### Slide 2 — Workshop Overview
 - What are we doing in 3 days?
-  - Day 1: Data → VectorDB (today)
-  - Day 2: Agent + Tools
-  - Day 3: Evaluation + Capstone
+ - Day 1: Data → VectorDB (today)
+ - Day 2: Agent + Tools
+ - Day 3: Evaluation + Capstone
 - Pipeline diagram: Raw → Chunk → Embed → Store → Retrieve → Answer
 
 ### Slide 3 — What is RAG?
@@ -101,15 +101,15 @@
 ### Slide 6 — Chunking
 - Why chunk text? (LLMs have context limits)
 - 3 methods:
-  - Fixed-size: simple, but may split sentences
-  - Recursive: smarter, splits by structure
-  - Semantic: best, splits by meaning
+ - Fixed-size: simple, but may split sentences
+ - Recursive: smarter, splits by structure
+ - Semantic: best, splits by meaning
 - 💡 Note: chunk_size vs overlap tradeoff
 
 ### Slide 7 — Thai Tokenization
 - Thai has no spaces between words
 - PyThaiNLP `word_tokenize()`
-- Example: "สวัสดีครับ" → ["สวัสดี","ครับ"]
+- Example: "" → ["",""]
 
 ### Slide 8 — Embedding
 - Convert text → vector (numbers)
@@ -141,9 +141,9 @@
 ### Slide 13 — Day 1 Summary
 - Today we learned: Dedup → Chunk → Embed → VectorDB → Search
 - 💡 Key takeaways:
-  - Chunk size affects RAG quality
-  - Hybrid search beats a single method
-  - Embedding model must support Thai
+ - Chunk size affects RAG quality
+ - Hybrid search beats a single method
+ - Embedding model must support Thai
 
 ### Slide 14 — Day 1 Homework
 - 🔗 Open homework: `[Open in Colab](https://colab.research.google.com/github/megacare-dev/agentic_rag_workshop/blob/main/day1/day1_homework.ipynb)`
@@ -199,10 +199,10 @@
 ### Slide 9 — Multi-Agent Systems
 - One agent not enough? → use multiple agents together
 - 4 patterns:
-  - Sequential: do A → B → C
-  - Parallel: run A + B + C together
-  - Loop: repeat until success
-  - LLM routing: AI chooses which agent to use
+ - Sequential: do A → B → C
+ - Parallel: run A + B + C together
+ - Loop: repeat until success
+ - LLM routing: AI chooses which agent to use
 
 ### Slide 10 — Sequential vs Parallel
 - Sequential: good for step-by-step tasks (summarize → translate → send)
@@ -279,8 +279,8 @@
 
 ### Slide 8 — A/B Testing
 - Compare 2 configs:
-  - A: chunk_size=200, top_k=3
-  - B: chunk_size=500, top_k=5
+ - A: chunk_size=200, top_k=3
+ - B: chunk_size=500, top_k=5
 - Measure results → choose the better one
 - 💡 Note: change one variable at a time to understand results
 
@@ -291,11 +291,11 @@
 
 ### Slide 10 — Optimization Strategies
 - 5 levers to tune:
-  1. Chunk size / overlap
-  2. Embedding model
-  3. Top-K / search method
-  4. Prompt template
-  5. Model parameters (temperature)
+ 1. Chunk size / overlap
+ 2. Embedding model
+ 3. Top-K / search method
+ 4. Prompt template
+ 5. Model parameters (temperature)
 - Measure every change!
 
 ### Slide 11 — 🧪 Exercise
@@ -324,9 +324,9 @@
 - Homework is 10 points | Download .ipynb → Upload to form
 - Deadline: [TBD]
 - Final grading across 3 days = 90 points:
-  - 🤝 Responsibility (30)
-  - 💪 Determination (30)
-  - 💻 Technical (30)
+ - 🤝 Responsibility (30)
+ - 💪 Determination (30)
+ - 💻 Technical (30)
 
 ### Slide 16 — Thank You
 - _"The best way to learn AI is to build with AI."_

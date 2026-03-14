@@ -32,4 +32,4 @@ The English version of this workshop is currently being developed. Contributions
 
 ---
 
-> Looking for the Thai version? → [🇹🇭 ภาษาไทย](../th/README.md)
+> Looking for the Thai version? → [🇹🇭 ](../th/README.md)
